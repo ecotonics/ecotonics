@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <>
             <div className="relative w-full h-screen p-3">
-                <div className="bg-[url('@/app/images/banner.png')] bg-cover bg-center bg-no-repeat rounded-3xl h-full py-5 px-48">
+                <div className="bg-[url('https://finovate.vamtam.com/wp-content/uploads/2025/02/GettyImages-1364057902.jpg')] bg-cover bg-center bg-no-repeat rounded-3xl h-full py-5 px-48">
                     <div className="flex flex-col justify-between h-full">
 
                         {/* Navbar */}
