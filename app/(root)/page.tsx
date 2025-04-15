@@ -1,6 +1,8 @@
 import HeroSection from "@/app/components/HeroSection";
 import Services from "../components/Services";
 import AboutUs from "../components/AboutUs";
+import ServiceSection from "../components/ServiceSection";
+import WorkProcess from "../components/WorkProcess";
 
 export default function Home() {
     return (
@@ -8,6 +10,8 @@ export default function Home() {
             <HeroSection />
             <Services />
             <AboutUs />
+            <ServiceSection />
+            <WorkProcess />
         </main>
     );
 }

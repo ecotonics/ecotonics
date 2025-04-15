@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
   return (
     <div className="overflow-hidden p-3 md:px-10 md:pb-10">
-        <div className="border-2 border-gray-300 rounded-3xl p-5 bg-white shadow-lg">
+        <div className="border-2 border-gray-300 rounded-3xl p-5 bg-white">
             <div className="px-5 py-10">
                 {/* About Us Content */}
                 <h3 className="font-extrabold text-gray-800 text-2xl">OUR PHILOSOPHY</h3>
