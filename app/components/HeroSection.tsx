@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div className="relative w-full h-screen p-3">
+      <div className="relative w-full h-screen p-3 md:p-10">
         <div className="relative bg-[url('/images/element.png')] bg-cover bg-center bg-no-repeat rounded-3xl h-full py-5 px-6 md:px-20 overflow-hidden border-2 border-gray-300">
           <div className="relative z-10 flex flex-col justify-between h-full">
             {/* Header Section */}
