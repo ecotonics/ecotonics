@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="relative w-full h-screen p-3">
-        <div className="relative bg-[url('/images/element.png')] bg-cover bg-center bg-no-repeat rounded-3xl h-full py-5 px-6 md:px-20 overflow-hidden border-2 border-gray-600 shadow-lg">
+        <div className="relative bg-[url('/images/element.png')] bg-cover bg-center bg-no-repeat rounded-3xl h-full py-5 px-6 md:px-20 overflow-hidden border-2 border-gray-300">
           <div className="relative z-10 flex flex-col justify-between h-full">
             {/* Header Section */}
             <div className="flex justify-between items-center px-4 md:px-10 py-5 text-black border-b">
@@ -36,7 +36,7 @@ const HeroSection = () => {
             </div>
 
             {/* Mobile Fullscreen Nav with Enhanced Transitions */}
-            <div className={`fixed inset-x-3 inset-y-3 bg-white border-2 border-gray-600  flex flex-col justify-center items-center z-50 rounded-3xl p-8 transition-all duration-500 ease-in-out transform ${
+            <div className={`fixed inset-x-3 inset-y-3 bg-white border-2 border-gray-300  flex flex-col justify-center items-center z-50 rounded-3xl p-8 transition-all duration-500 ease-in-out transform ${
               menuOpen ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
             }`}>
               <button 
@@ -62,7 +62,7 @@ const HeroSection = () => {
             {/* Hero Center Content */}
             <div className="flex-1 flex items-center justify-center text-black text-center px-4">
               <div>
-                <h1 className="text-6xl md:text-7xl font-extrabold mb-6 leading-tight text-gray-800">
+                <h1 className="text-4xl md:text-7xl font-extrabold mb-6 leading-tight text-gray-800">
                   SMART SPACES <br/> TAILORED FOR YOU
                 </h1>
               </div>
