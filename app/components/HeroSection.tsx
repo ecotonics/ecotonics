@@ -62,7 +62,7 @@ const HeroSection = () => {
             {/* Hero Center Content */}
             <div className="flex-1 flex items-center justify-center text-black text-center px-4">
               <div>
-                <h1 className="text-4xl md:text-7xl font-extrabold mb-6 leading-tight text-gray-800">
+                <h1 className="text-6xl md:text-7xl font-extrabold mb-6 leading-tight text-gray-800">
                   SMART SPACES <br/> TAILORED FOR YOU
                 </h1>
               </div>
