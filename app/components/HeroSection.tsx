@@ -24,7 +24,7 @@ const HeroSection = () => {
               {/* Desktop Contact Button */}
               <div className="hidden md:block">
                 <button className="text-sm bg-black text-white font-bold px-6 py-2 rounded-2xl hover:bg-gray-600 transition">
-                  LET'S TALK
+                  LET&apos;S TALK
                 </button>
               </div>
               {/* Mobile App Icon */}
@@ -54,7 +54,7 @@ const HeroSection = () => {
               </nav>
               <div className="mt-10">
                 <button className="text-sm bg-black text-white font-bold px-6 py-2 rounded-2xl hover:bg-gray-900 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5">
-                  LET'S TALK
+                  LET&apos;S TALK
                 </button>
               </div>
             </div>
