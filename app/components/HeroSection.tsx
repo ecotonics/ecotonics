@@ -9,8 +9,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="relative w-full h-screen p-3">
-        {/* <div className="relative bg-[url(https://finovate.vamtam.com/wp-content/uploads/2025/02/GettyImages-1364057902.jpg)] bg-cover bg-center bg-no-repeat rounded-3xl h-full py-5 px-6 md:px-20 overflow-hidden"> */}
-        <div className="relative bg-white rounded-3xl h-full py-5 px-6 md:px-20 overflow-hidden border-2 border-gray-600 shadow-lg">
+        <div className="relative bg-[url('@/app/images/element.png')] bg-cover bg-center bg-no-repeat rounded-3xl h-full py-5 px-6 md:px-20 overflow-hidden border-2 border-gray-600 shadow-lg">
           <div className="relative z-10 flex flex-col justify-between h-full">
             {/* Header Section */}
             <div className="flex justify-between items-center px-4 md:px-10 py-5 text-black border-b">
@@ -25,7 +24,7 @@ const HeroSection = () => {
               {/* Desktop Contact Button */}
               <div className="hidden md:block">
                 <button className="text-sm bg-black text-white font-bold px-6 py-2 rounded-2xl hover:bg-gray-600 transition">
-                  CONTACT US
+                  LET'S TALK
                 </button>
               </div>
               {/* Mobile App Icon */}
@@ -55,25 +54,19 @@ const HeroSection = () => {
               </nav>
               <div className="mt-10">
                 <button className="text-sm bg-black text-white font-bold px-6 py-2 rounded-2xl hover:bg-gray-900 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5">
-                  CONTACT US
+                  LET'S TALK
                 </button>
               </div>
             </div>
 
             {/* Hero Center Content */}
-            {/* <div className="flex-1 flex items-center justify-center text-black text-center px-4">
+            <div className="flex-1 flex items-center justify-center text-black text-center px-4">
               <div>
-                <div>
-                  <div className='text-white font-black bg-black'>Ecotonics</div>
-                </div>
-                <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight" style={{textShadow: `3px 3px 0 rgba(0,0,0,0.3),6px 6px 0 rgba(0,0,0,0.1)`}}>
-                  Powering Smart Homes & Industries
+                <h1 className="text-6xl md:text-7xl font-extrabold mb-6 leading-tight text-gray-800">
+                  SMART SPACES <br/> TAILORED FOR YOU
                 </h1>
-                <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
-                  Intelligent automation solutions for the modern era
-                </p>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
