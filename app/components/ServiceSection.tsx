@@ -5,13 +5,13 @@ const ServiceSection = () => {
     return (
         <div className="overflow-hidden p-3 md:px-10 md:pb-10">
             <div className="rounded-3xl p-2 md:p-5 bg-gradient-to-b from-gray-100 to-white">
-                <div className="py-10">
+                <div className="pt-10">
                     {/* Service Section Content */}
                     <div className='text-center'>
                         <h3 className="inline-block font-extrabold text-gray-800 text-sm rounded-3xl border border-gray-300 px-3 py-1">
-                            What we do
+                            WHAT WE DO
                         </h3>
-                        <p className='py-10 text-2xl'>We Empower Visionaries to Transform Spaces with Smart Automation.</p>
+                        <p className='py-10 text-3xl md:text-5xl'>We Transform Spaces <br/>with Smart Automation.</p>
                     </div>
 
                     {/* Grid Layout */}
