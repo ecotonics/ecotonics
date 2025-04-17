@@ -2,6 +2,8 @@ import HeroSection from "@/app/components/HeroSection";
 import AboutUs from "@/app/components/AboutUs";
 import WorkProcess from "@/app/components/WorkProcess";
 import WhatWeDo from "@/app/components/WhatWeDo";
+import Contact from "@/app/components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
     return (
@@ -10,6 +12,8 @@ export default function Home() {
             <AboutUs />
             <WhatWeDo />
             <WorkProcess />
+            <Contact />
+            <Footer />
         </main>
     );
 }
