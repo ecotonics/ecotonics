@@ -18,7 +18,7 @@ const HeroSection = () => {
               <div className="hidden md:flex space-x-8 text-sm font-bold">
                 <a href="#" className="hover:text-gray-300 transition">HOME</a>
                 <a href="#" className="hover:text-gray-300 transition">ABOUT US</a>
-                <a href="#" className="hover:text-gray-300 transition">SERVICES</a>
+                <a href="#" className="hover:text-gray-300 transition">SOLUTIONS</a>
                 <a href="#" className="hover:text-gray-300 transition">PROJECTS</a>
               </div>
               {/* Desktop Contact Button */}

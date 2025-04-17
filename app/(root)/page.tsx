@@ -7,19 +7,16 @@ import Projects from "../components/Projects";
 import Associations from "../components/Associations";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
+import Services3 from "../components/WhatWeDo";
+import WhatWeDo from "../components/WhatWeDo";
 
 export default function Home() {
     return (
         <main className="no-vertical-scroll">
             <HeroSection />
-            {/* <Services /> */}
-            {/* <AboutUs /> */}
-            {/* <ServiceSection /> */}
-            {/* <WorkProcess /> */}
-            {/* <Projects /> */}
-            {/* <Associations /> */}
-            {/* <ContactForm /> */}
-            {/* <Footer /> */}
+            <AboutUs />
+            <WhatWeDo />
+            <WorkProcess />
         </main>
     );
 }

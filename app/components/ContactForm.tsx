@@ -5,7 +5,7 @@ const ContactForm = () => {
         <div className="overflow-hidden p-3 md:px-10 md:pb-10">
             <div className="w-full bg-white rounded-3xl border overflow-hidden grid grid-cols-1 md:grid-cols-2">
                 <div className="p-8 md:p-10">
-                    <button className="text-xs border border-gray-400 px-3 py-1 rounded-full mb-3 text-black font-extrabold">
+                    <button className="text-xs border border-gray-300 px-3 py-1 rounded-full mb-3 text-black font-extrabold">
                         SCHEDULE CONSULTATION
                     </button>
                     <h2 className="text-3xl font-bold text-gray-800 mb-4">Let’s Connect</h2>

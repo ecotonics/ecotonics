@@ -7,25 +7,27 @@ const Projects = () => {
             image: 'https://bespoq.life/wp-content/uploads/2024/05/poothali1.webp',
         },
         {
-            title: 'Minimalist Smart Home',
+            title: 'Poothali Home',
+            image: 'https://bespoq.life/wp-content/uploads/2024/05/poothali1.webp',
+        },
+        {
+            title: 'Poothali Home',
+            image: 'https://bespoq.life/wp-content/uploads/2024/05/poothali1.webp',
+        },
+        {
+            title: 'Poothali Home',
             image: 'https://bespoq.life/wp-content/uploads/2024/05/poothali1.webp',
         },
     ];
 
     return (
         <div className="overflow-hidden p-3 md:px-10 md:pb-10">
-            <div className="rounded-3xl p-2 md:p-5 bg-gradient-to-b from-gray-100 to-white">
-                <div className="pt-10">
-                    {/* Header */}
-                    <div className='text-center'>
-                        <h3 className="inline-block font-extrabold text-gray-800 text-sm rounded-3xl border border-gray-300 px-3 py-1">
-                            PROJECTS
-                        </h3>
-                        <p className='py-10 text-3xl md:text-5xl'>Our Latest Projects</p>
-                    </div>
+            <div className="border-2 border-gray-300 rounded-3xl p-5 bg-white">
+                <div className="px-5 py-10">
+                    {/* About Us Content */}
+                    <h3 className="font-extrabold text-gray-800 text-xl md:text-2xl">ABOUT US</h3>
 
-                    {/* Project Grid */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
                         {projectList.map((project, index) => (
                             <div key={index} className="relative rounded-3xl overflow-hidden group shadow-lg">
                                 <img
@@ -47,11 +49,6 @@ const Projects = () => {
                                 </div>
                             </div>
                         ))}
-                    </div>
-
-                    {/* Button Below Grid */}
-                    <div className='text-center'>
-                        <button className='mt-10 px-12 py-3 bg-gray-900 text-white font-extrabold rounded-3xl'>More Projects</button>
                     </div>
                 </div>
             </div>
