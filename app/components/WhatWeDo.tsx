@@ -12,7 +12,7 @@ const WhatWeDo = () => {
                         <div>
                             <div className='border-b-2 md:border-b-0 md:border-r-2 border-gray-300 py-10 md:pr-10'>
                                 <h1 className='text-gray-800 text-lg md:text-xl font-extrabold mb-5'>HARMONIOUS HOMES</h1>
-                                <p className='text-gray-800 text-lg md:text-xl'>Step into a smart home where comfort and security are at your fingertips. Bespoq's residential solutions make your home truly smart, adapting to your needs.</p>
+                                <p className='text-gray-800 text-lg md:text-xl'>Step into a smart home where comfort and security are at your fingertips. Bespoqs residential solutions make your home truly smart, adapting to your needs.</p>
                             </div>
                         </div>
 
@@ -33,7 +33,7 @@ const WhatWeDo = () => {
                         <div>
                             <div className='md:border-b-0 border-gray-300 pt-10 md:pl-10'>
                                 <h1 className='text-gray-800 text-lg md:text-xl font-extrabold mb-5'>SMART RETREATS</h1>
-                                <p className='text-gray-800 text-lg md:text-xl'>Whether it's a hotel, resort or homestay, elevate your hospitality spaces with Bespoq's smart automations, combining luxury and technology to create an atmosphere of refined comfort.</p>
+                                <p className='text-gray-800 text-lg md:text-xl'>Whether its a hotel, resort or homestay, elevate your hospitality spaces with Bespoqs smart automations, combining luxury and technology to create an atmosphere of refined comfort.</p>
                             </div>
                         </div>
                     </div>
