@@ -39,7 +39,7 @@ const Navbar = () => {
                 <nav className="flex flex-col space-y-8 text-black text-xl font-bold text-center">
                     <Link href="/" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">HOME</Link>
                     <Link href="/about" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">ABOUT US</Link>
-                    <Link href="/services" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">SERVICES</Link>
+                    <Link href="/solutions" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">SOLUTIONS</Link>
                     <Link href="/projects" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">PROJECTS</Link>
                 </nav>
                 

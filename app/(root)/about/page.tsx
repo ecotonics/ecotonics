@@ -29,7 +29,7 @@ const page = () => {
 
                 <div className="border-2 border-gray-300 rounded-3xl p-5 mb-5 md:mb-10">
                     <div className='grid grid-cols-1 md:grid-cols-2'>
-                        <div className="mx-5 px-5 my-10 border-r">
+                        <div className="mx-5 md:pr-10 my-10 lg:border-r">
                             {/* About Us Content */}
                             <h3 className="font-extrabold text-xl md:text-2xl">OUR VISION</h3>
 
@@ -43,7 +43,7 @@ const page = () => {
                             </p>
                         </div>
 
-                        <div className="mx-5 px-5 my-10">
+                        <div className="mx-5 md:pl-10 my-10">
                             {/* About Us Content */}
                             <h3 className="font-extrabold text-xl md:text-2xl">OUR MISSION</h3>
 

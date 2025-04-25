@@ -15,7 +15,7 @@ const page = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2">
                         
                         {/* PAYYANNUR BRANCH */}
-                        <div className="mx-5 px-5 my-10 border-r">
+                        <div className="mx-5 md:px-5 my-10 border-b lg:border-b-0 lg:border-r pb-15 lg:pb-0">
                         <h3 className="font-extrabold text-xl md:text-2xl text-gray-800 mb-6">PAYYANNUR BRANCH</h3>
                         <div className="text-lg md:text-xl text-gray-700 space-y-4">
                             <p><strong>Address:</strong> XYZ Building, Main Road, Payyannur, Kerala - 670307</p>
@@ -26,7 +26,7 @@ const page = () => {
                         </div>
 
                         {/* KOCHI BRANCH */}
-                        <div className="mx-5 px-5 my-10">
+                        <div className="mx-5 md:px-5 my-10">
                         <h3 className="font-extrabold text-xl md:text-2xl text-gray-800 mb-6">KOCHI BRANCH</h3>
                         <div className="text-lg md:text-xl text-gray-700 space-y-4">
                             <p><strong>Address:</strong> ABC Complex, MG Road, Kochi, Kerala - 682016</p>
