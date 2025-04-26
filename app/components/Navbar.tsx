@@ -9,22 +9,37 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="flex justify-between items-center px-4 md:px-10 py-5 text-black">
+            <div className="flex justify-between items-center px-4 md:px-10 py-5">
                 <div className="text-xl font-extrabold">ECOTONICS</div>
 
+                {/* Desktop Menu */}
                 <div className="hidden lg:flex space-x-8 text-sm font-bold">
-                    <Link href="/" className="hover:text-gray-300 transition">HOME</Link>
-                    <Link href="/about" className="hover:text-gray-300 transition">ABOUT US</Link>
-                    <Link href="/solutions" className="hover:text-gray-300 transition">SOLUTIONS</Link>
-                    <Link href="/projects" className="hover:text-gray-300 transition">PROJECTS</Link>
+                    <Link href="/" className="relative group">
+                        <span className="hover:text-gray-300 transition">HOME</span>
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                    </Link>
+                    <Link href="/about" className="relative group">
+                        <span className="hover:text-gray-300 transition">ABOUT US</span>
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                    </Link>
+                    <Link href="/solutions" className="relative group">
+                        <span className="hover:text-gray-300 transition">SOLUTIONS</span>
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                    </Link>
+                    <Link href="/projects" className="relative group">
+                        <span className="hover:text-gray-300 transition">PROJECTS</span>
+                        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                    </Link>
                 </div>
 
+                {/* Let's Talk Button */}
                 <div className="hidden lg:block">
-                    <Link href='/contact' className="text-sm bg-black text-white font-bold px-6 py-2 rounded-2xl hover:bg-gray-600 transition">
+                    <Link href='/contact' className="text-sm bg-white text-black font-bold px-6 py-2 rounded-2xl hover:bg-gray-600 transition">
                       LET&apos;S TALK
                     </Link>
                 </div>
 
+                {/* Mobile Menu Button */}
                 <div className="lg:hidden">
                     <button onClick={() => setMenuOpen(true)} className="focus:outline-none" aria-label="Open menu">
                       <Menu size={28} />
