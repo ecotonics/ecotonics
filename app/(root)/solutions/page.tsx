@@ -32,29 +32,39 @@ const Page = () => {
                         <div className="w-full md:w-auto space-y-16">
                             
                             {/* Home Automation */}
-                            <div className="px-4">
-                                <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
-                                <p className="text-lg md:text-xl mt-6 text-gray-700">
-                                    As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
-                                    future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
-                                    proactive maintenance, and expert consultation tailored to your unique needs. 
-                                    By partnering with us, you unlock a new level of convenience, efficiency, 
-                                    and control—bringing the luxury of smart living and intelligent operations to your fingertips, 
-                                    all through reliable and cost-effective automation systems.
-                                </p>
+                            <div className="md:flex gap-10 md:items-center">
+                                <div className='w-full lg:w-120 mb-10 md:mb-0'>
+                                    <img src="/images/1.svg" alt="" className='w-full'/>
+                                </div>
+                                <div>
+                                    <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
+                                    <p className="text-lg md:text-xl mt-6 text-gray-700">
+                                        As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
+                                        future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
+                                        proactive maintenance, and expert consultation tailored to your unique needs. 
+                                        By partnering with us, you unlock a new level of convenience, efficiency, 
+                                        and control—bringing the luxury of smart living and intelligent operations to your fingertips, 
+                                        all through reliable and cost-effective automation systems.
+                                    </p>
+                                </div>
                             </div>
 
                             {/* Industrial Automation */}
-                            <div className="px-4">
-                                <h3 className="font-extrabold text-xl md:text-2xl text-black">INDUSTRIAL AUTOMATION</h3>
-                                <p className="text-lg md:text-xl mt-6 text-gray-700">
-                                    As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
-                                    future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
-                                    proactive maintenance, and expert consultation tailored to your unique needs. 
-                                    By partnering with us, you unlock a new level of convenience, efficiency, 
-                                    and control—bringing the luxury of smart living and intelligent operations to your fingertips, 
-                                    all through reliable and cost-effective automation systems.
-                                </p>
+                            <div className="md:flex gap-10 md:items-center">
+                                <div className='w-full lg:w-120 mb-10 md:mb-0'>
+                                    <img src="/images/2.svg" alt="" className='w-full'/>
+                                </div>
+                                <div>
+                                    <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
+                                    <p className="text-lg md:text-xl mt-6 text-gray-700">
+                                        As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
+                                        future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
+                                        proactive maintenance, and expert consultation tailored to your unique needs. 
+                                        By partnering with us, you unlock a new level of convenience, efficiency, 
+                                        and control—bringing the luxury of smart living and intelligent operations to your fingertips, 
+                                        all through reliable and cost-effective automation systems.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -76,29 +86,39 @@ const Page = () => {
                         <div className="w-full md:w-auto space-y-16">
                             
                             {/* Home Automation */}
-                            <div className="px-4">
-                                <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
-                                <p className="text-lg md:text-xl mt-6 text-gray-700">
-                                    As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
-                                    future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
-                                    proactive maintenance, and expert consultation tailored to your unique needs. 
-                                    By partnering with us, you unlock a new level of convenience, efficiency, 
-                                    and control—bringing the luxury of smart living and intelligent operations to your fingertips, 
-                                    all through reliable and cost-effective automation systems.
-                                </p>
+                            <div className="md:flex gap-10 md:items-center">
+                                <div className='w-full lg:w-120 mb-10 md:mb-0'>
+                                    <img src="/images/3.svg" alt="" className='w-full'/>
+                                </div>
+                                <div>
+                                    <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
+                                    <p className="text-lg md:text-xl mt-6 text-gray-700">
+                                        As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
+                                        future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
+                                        proactive maintenance, and expert consultation tailored to your unique needs. 
+                                        By partnering with us, you unlock a new level of convenience, efficiency, 
+                                        and control—bringing the luxury of smart living and intelligent operations to your fingertips, 
+                                        all through reliable and cost-effective automation systems.
+                                    </p>
+                                </div>
                             </div>
 
                             {/* Industrial Automation */}
-                            <div className="px-4">
-                                <h3 className="font-extrabold text-xl md:text-2xl text-black">INDUSTRIAL AUTOMATION</h3>
-                                <p className="text-lg md:text-xl mt-6 text-gray-700">
-                                    As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
-                                    future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
-                                    proactive maintenance, and expert consultation tailored to your unique needs. 
-                                    By partnering with us, you unlock a new level of convenience, efficiency, 
-                                    and control—bringing the luxury of smart living and intelligent operations to your fingertips, 
-                                    all through reliable and cost-effective automation systems.
-                                </p>
+                            <div className="md:flex gap-10 md:items-center">
+                                <div className='w-full lg:w-120 mb-10 md:mb-0'>
+                                    <img src="/images/4.svg" alt="" className='w-full'/>
+                                </div>
+                                <div>
+                                    <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
+                                    <p className="text-lg md:text-xl mt-6 text-gray-700">
+                                        As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
+                                        future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
+                                        proactive maintenance, and expert consultation tailored to your unique needs. 
+                                        By partnering with us, you unlock a new level of convenience, efficiency, 
+                                        and control—bringing the luxury of smart living and intelligent operations to your fingertips, 
+                                        all through reliable and cost-effective automation systems.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

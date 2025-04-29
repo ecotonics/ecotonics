@@ -10,30 +10,50 @@ const WhatWeDo = () => {
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
-                            <div className='border-b-2 md:border-b-0 md:border-r-2 border-gray-300 py-10 md:pr-10'>
-                                <h1 className='text-lg md:text-xl font-extrabold mb-5'>HARMONIOUS HOMES</h1>
-                                <p className='text-lg md:text-xl'>Step into a smart home where comfort and security are at your fingertips. Bespoqs residential solutions make your home truly smart, adapting to your needs.</p>
+                            <div className='border-b-2 md:border-b-0 md:border-r-2 border-gray-300 py-10 md:pr-10 md:flex'>
+                                <div className='w-24 md:w-48 lg:w-64 lg:flex justify-center items-center mb-10 lg:mb-0'>
+                                    <img src="/images/1.svg" alt="Harmonious Homes" className="w-full h-auto" />
+                                </div>
+                                <div className='md:ml-10'>
+                                    <h1 className='text-lg md:text-xl font-extrabold mb-5'>HARMONIOUS HOMES</h1>
+                                    <p className='text-lg md:text-xl'>Step into a smart home where comfort and security are at your fingertips. Bespoq's residential solutions make your home truly smart, adapting to your needs.</p>
+                                </div>
                             </div>
                         </div>
 
                         <div>
-                            <div className='border-b-2 md:border-b-0 border-gray-300 py-10 md:pl-10'>
-                                <h1 className='text-lg md:text-xl font-extrabold mb-5'>INTELIGENT OFFICES</h1>
-                                <p className='text-lg md:text-xl'>Boost productivity and efficiency in your office spaces. Bespoq enhances the workplace experience, providing intelligent systems for access, lighting, HVAC, and security.</p>
+                            <div className='border-b-2 md:border-b-0 border-gray-300 py-10 md:pl-10 md:flex'>
+                                <div className='w-24 md:w-48 lg:w-64 lg:flex justify-center items-center mb-10 lg:mb-0'>
+                                    <img src="/images/2.svg" alt="Harmonious Homes" className="w-full h-auto" />
+                                </div>
+                                <div className='md:ml-10'>
+                                    <h1 className='text-lg md:text-xl font-extrabold mb-5'>INTELLIGENT OFFICES</h1>
+                                    <p className='text-lg md:text-xl'>Boost productivity and efficiency in your office spaces. Bespoq enhances the workplace experience, providing intelligent systems for access, lighting, HVAC, and security.</p>
+                                </div>
                             </div>
                         </div>
 
                         <div>
-                            <div className='border-b-2 md:border-b-0 md:border-r-2 border-gray-300 py-10 md:pr-10'>
-                                <h1 className='text-lg md:text-xl font-extrabold mb-5'>HEALING SPACES</h1>
-                                <p className='text-lg md:text-xl'>In the healthcare sector, Bespoq brings intelligence to hospitals. Our smart solutions enhance patient experience, optimise energy efficiency, and empower healthcare professionals.</p>
+                            <div className='border-b-2 md:border-b-0 md:border-r-2 border-gray-300 py-10 md:pr-10 md:flex'>
+                                <div className='w-24 md:w-48 lg:w-64 lg:flex justify-center items-center mb-10 lg:mb-0'>
+                                    <img src="/images/3.svg" alt="Harmonious Homes" className="w-full h-auto" />
+                                </div>
+                                <div className='md:ml-10'>
+                                    <h1 className='text-lg md:text-xl font-extrabold mb-5'>HEALING SPACES</h1>
+                                    <p className='text-lg md:text-xl'>In the healthcare sector, Bespoq brings intelligence to hospitals. Our smart solutions enhance patient experience, optimise energy efficiency, and empower healthcare professionals.</p>
+                                </div>
                             </div>
                         </div>
 
                         <div>
-                            <div className='md:border-b-0 border-gray-300 pt-10 md:pl-10'>
-                                <h1 className='text-lg md:text-xl font-extrabold mb-5'>SMART RETREATS</h1>
-                                <p className='text-lg md:text-xl'>Whether its a hotel, resort or homestay, elevate your hospitality spaces with Bespoqs smart automations, combining luxury and technology to create an atmosphere of refined comfort.</p>
+                            <div className='md:border-b-0 border-gray-300 pt-10 md:pl-10 md:flex'>
+                                <div className='w-24 md:w-48 lg:w-64 lg:flex justify-center items-center mb-10 lg:mb-0'>
+                                    <img src="/images/4.svg" alt="Harmonious Homes" className="w-full h-auto" />
+                                </div>
+                                <div className='md:ml-10'>
+                                    <h1 className='text-lg md:text-xl font-extrabold mb-5'>SMART RETREATS</h1>
+                                    <p className='text-lg md:text-xl'>Whether it's a hotel, resort, or homestay, elevate your hospitality spaces with Bespoq's smart automations, combining luxury and technology to create an atmosphere of refined comfort.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

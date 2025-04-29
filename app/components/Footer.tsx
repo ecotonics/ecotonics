@@ -1,5 +1,8 @@
+'use client';
+
 import React from 'react';
 import { Facebook, Instagram, Linkedin, Mail, Phone } from 'lucide-react';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -9,9 +12,11 @@ const Footer = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                         
                         {/* Company Info */}
-                        <div className='md:mx-auto'>
+                        <div className="md:mx-auto">
                             <div>
-                                <h2 className="text-lg md:text-xl font-extrabold mb-5">ECOTONICS</h2>
+                                <Link href='/'>
+                                    <h2 className="text-lg md:text-xl font-extrabold mb-5">ECOTONICS</h2>
+                                </Link>
                                 <p className="text-lg md:text-xl">
                                     We bring smart automation to homes, offices, and hospitality spaces with cutting-edge, user-centric solutions — tailored for convenience, efficiency, and control.
                                 </p>
@@ -19,20 +24,34 @@ const Footer = () => {
                         </div>
 
                         {/* Navigation */}
-                        <div className='md:mx-auto'>
+                        <div className="md:mx-auto">
                             <div>
                                 <h2 className="text-lg md:text-xl font-extrabold mb-5">QUICK LINKS</h2>
                                 <ul className="space-y-2">
-                                    <li><a href="#" className="text-lg md:text-lg hover:text-gray-800 transition">ABOUT US</a></li>
-                                    <li><a href="#" className="text-lg md:text-lg hover:text-gray-800 transition">SOLUTIONS</a></li>
-                                    <li><a href="#" className="text-lg md:text-lg hover:text-gray-800 transition">PROJECTS</a></li>
-                                    <li><a href="#" className="text-lg md:text-lg hover:text-gray-800 transition">CONTACT</a></li>
+                                    <li>
+                                        <Link href="/solutions" className="relative group text-lg md:text-lg">
+                                            <span className="hover:text-gray-800 transition">SOLUTIONS</span>
+                                            <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/projects" className="relative group text-lg md:text-lg">
+                                            <span className="hover:text-gray-800 transition">PROJECTS</span>
+                                            <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/contact" className="relative group text-lg md:text-lg">
+                                            <span className="hover:text-gray-800 transition">CONTACT</span>
+                                            <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
 
                         {/* Contact & Social */}
-                        <div className='md:mx-auto'>
+                        <div className="md:mx-auto">
                             <div>
                                 <h2 className="text-lg md:text-xl font-extrabold mb-5">GET IN TOUCH</h2>
                                 <div className="flex items-center space-x-3 mb-4">
@@ -50,6 +69,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                     <div className="text-center text-gray-800 text-lg md:text-xl mt-10 border-t pt-6">
