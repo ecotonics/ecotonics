@@ -19,7 +19,7 @@ const WhatWeDo = () => {
                                     <h1 className="text-lg md:text-xl font-extrabold mb-5">HARMONIOUS HOMES</h1>
                                     <p className="text-lg md:text-xl">
                                         Step into a smart home where comfort and security are at your fingertips.
-                                        Bespoq's residential solutions make your home truly smart, adapting to your needs.
+                                        Bespoqs residential solutions make your home truly smart, adapting to your needs.
                                     </p>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ const WhatWeDo = () => {
                                 <div className="md:ml-10">
                                     <h1 className="text-lg md:text-xl font-extrabold mb-5">SMART RETREATS</h1>
                                     <p className="text-lg md:text-xl">
-                                        Whether it's a hotel, resort, or homestay, elevate your hospitality spaces with Bespoq's
+                                        Whether its a hotel, resort, or homestay, elevate your hospitality spaces with Bespoqs
                                         smart automations, combining luxury and technology to create an atmosphere of refined comfort.
                                     </p>
                                 </div>
