@@ -1,6 +1,7 @@
 "use client"
 
 import React from 'react'
+import Image from 'next/image'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 
@@ -34,7 +35,7 @@ const Page = () => {
                             {/* Home Automation */}
                             <div className="md:flex gap-10 md:items-center">
                                 <div className='w-full lg:w-120 mb-10 md:mb-0'>
-                                    <img src="/images/1.svg" alt="" className='w-full'/>
+                                    <Image src="/images/1.svg" alt="" width={500} height={500} className='w-full h-auto'/>
                                 </div>
                                 <div>
                                     <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
@@ -52,7 +53,7 @@ const Page = () => {
                             {/* Industrial Automation */}
                             <div className="md:flex gap-10 md:items-center">
                                 <div className='w-full lg:w-120 mb-10 md:mb-0'>
-                                    <img src="/images/2.svg" alt="" className='w-full'/>
+                                    <Image src="/images/2.svg" alt="" width={500} height={500} className='w-full h-auto'/>
                                 </div>
                                 <div>
                                     <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
@@ -88,7 +89,7 @@ const Page = () => {
                             {/* Home Automation */}
                             <div className="md:flex gap-10 md:items-center">
                                 <div className='w-full lg:w-120 mb-10 md:mb-0'>
-                                    <img src="/images/3.svg" alt="" className='w-full'/>
+                                    <Image src="/images/3.svg" alt="" width={500} height={500} className='w-full h-auto'/>
                                 </div>
                                 <div>
                                     <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
@@ -106,7 +107,7 @@ const Page = () => {
                             {/* Industrial Automation */}
                             <div className="md:flex gap-10 md:items-center">
                                 <div className='w-full lg:w-120 mb-10 md:mb-0'>
-                                    <img src="/images/4.svg" alt="" className='w-full'/>
+                                    <Image src="/images/4.svg" alt="" width={500} height={500} className='w-full h-auto'/>
                                 </div>
                                 <div>
                                     <h3 className="font-extrabold text-xl md:text-2xl text-black">HOME AUTOMATION</h3>
