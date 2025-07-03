@@ -1,78 +1,46 @@
-"use client";
+'use client';
 
 import React from 'react';
-import { motion } from 'framer-motion';
 import Navbar from './Navbar';
-
-// bg-[#020617]
 
 const HeroSection = () => {
     return (
-        <div className="relative w-full h-screen p-3 md:p-10">
-            <div className="relative rounded-3xl h-full py-5 px-6 md:px-20 overflow-hidden border-2 border-gray-300">
+        <>
+            {/* Fixed Navbar */}
+            <Navbar />
 
-                {/* Radial Gradient Overlays */}
-                {/* <motion.div 
-                    initial={{ opacity: 0.4, scale: 0.8 }} 
-                    animate={{ opacity: [0.4, 0.7, 0.4], scale: [1, 1.1, 1] }} 
-                    transition={{
-                        duration: 4, 
-                        ease: "easeInOut", 
-                        repeat: Infinity, 
-                        repeatType: "loop",
-                    }}
-                    className="absolute -top-20 -left-20 w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] bg-gradient-to-br from-blue-400 via-blue-600 to-blue-800 rounded-full blur-3xl opacity-50 pointer-events-none"
-                />
+            {/* Scrollable Content */}
+            <div className="w-full hidden lg:flex items-center justify-between p-5 px-48">
+                <div>
+                    <p className="text-2xl font-bold">Ecotonics</p>
+                </div>
+                <div>
+                    <button className="px-5 py-2 bg-[#485c11] text-white rounded-3xl">
+                        <p className='text-sm font-bold'>Contact us</p>
+                    </button>
+                </div>
+            </div>
 
-                <motion.div 
-                    initial={{ opacity: 0.4, scale: 0.8 }} 
-                    animate={{ opacity: [0.4, 0.7, 0.4], scale: [1, 1.1, 1] }} 
-                    transition={{
-                        duration: 4, 
-                        ease: "easeInOut", 
-                        repeat: Infinity, 
-                        repeatType: "loop",
-                        delay: 0.5, 
-                    }}
-                    className="absolute -bottom-20 -right-20 w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px] bg-gradient-to-tr from-blue-800 via-blue-600 to-blue-400 rounded-full blur-3xl opacity-50 pointer-events-none"
-                /> */}
+            <div className="w-full flex flex-col items-center justify-center my-20 p-5 md:p-0">
+                {/* Text: Connect + Beyond */}
+                <div className="text-[70px] md:text-[100px] font-medium w-full flex flex-col md:flex-row md:justify-center text-black leading-none md:leading-[1.1]">
+                    <p className="text-left md:text-center w-full md:w-auto font-bold md:font-medium">Connect</p>
+                    <p className="text-right md:text-center w-full md:w-auto font-bold md:font-medium">Beyond.</p>
+                </div>
 
-                {/* Decorative Images */}
-                <motion.img 
-                    src="/images/top-left.png" 
-                    alt="Top Left Decoration" 
-                    className="absolute top-0 left-0 pointer-events-none"
-                    initial={{ opacity: 0, y: -50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
-                />
-                <motion.img 
-                    src="/images/bottom-right.png" 
-                    alt="Bottom Right Decoration" 
-                    className="absolute bottom-0 right-0 pointer-events-none"
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
-                />
-
-                {/* Content */}
-                <div className="relative z-10 flex flex-col justify-between h-full">
-                    <Navbar />
-
-                    <div className="flex-1 flex items-center justify-center text-center px-4">
-                        <motion.div 
-                            initial={{ opacity: 0, y: 50 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1, delay: 0.5 }}
-                        >
-                            <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight drop-shadow-lg">
-                                SMART SPACES <br /> TAILORED FOR YOU
-                            </h1>
-                        </motion.div>
+                {/* Screen Image Section */}
+                <div className="w-full mt-48 md:mt-64">
+                    <div className="h-60 md:h-90 bg-[#8e9c78] mx-4 md:mx-48 rounded-3xl flex items-center justify-center relative">
+                        <div className='hidden lg:block w-[90%] md:w-[900px] absolute bottom-0'>
+                            <img src="/images/system-screen.png" className="" alt="" />
+                        </div>
+                        <div className='lg:hidden w-[90%] md:w-[500px] absolute bottom-0'>
+                            <img src="/images/mobile-screen.png" className="" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

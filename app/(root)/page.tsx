@@ -4,14 +4,16 @@ import WorkProcess from "@/app/components/WorkProcess";
 import WhatWeDo from "@/app/components/WhatWeDo";
 import Contact from "@/app/components/Contact";
 import Footer from "../components/Footer";
+import WhyChoose from "../components/WhyChoose";
 
 export default function Home() {
     return (
         <main className="no-vertical-scroll">
             <HeroSection />
-            <AboutUs />
             <WhatWeDo />
-            <WorkProcess />
+            {/* <AboutUs /> */}
+            {/* <WorkProcess /> */}
+            <WhyChoose />
             <Contact />
             <Footer />
         </main>
