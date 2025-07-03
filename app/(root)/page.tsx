@@ -1,6 +1,4 @@
 import HeroSection from "@/app/components/HeroSection";
-import AboutUs from "@/app/components/AboutUs";
-import WorkProcess from "@/app/components/WorkProcess";
 import WhatWeDo from "@/app/components/WhatWeDo";
 import Contact from "@/app/components/Contact";
 import Footer from "../components/Footer";
@@ -11,8 +9,6 @@ export default function Home() {
         <main className="no-vertical-scroll">
             <HeroSection />
             <WhatWeDo />
-            {/* <AboutUs /> */}
-            {/* <WorkProcess /> */}
             <WhyChoose />
             <Contact />
             <Footer />
