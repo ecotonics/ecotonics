@@ -8,7 +8,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className="fixed top-0 left-0 w-full z-50">
+        <div className="fixed top-0 left-0 z-50 w-full">
             <div className="flex md:justify-center items-center md:px-10 md:py-5">
 
                 {/* Desktop Menu */}
@@ -17,14 +17,18 @@ const Navbar = () => {
                         <span className="transition">Home</span>
                         <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
                     </Link>
+                    <Link href="/about" className="relative group">
+                        <span className="transition">About Us</span>
+                        <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
+                    </Link>
                     <Link href="/solutions" className="relative group">
                         <span className="transition">Solutions</span>
                         <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
                     </Link>
-                    <Link href="/projects" className="relative group">
+                    {/* <Link href="/projects" className="relative group">
                         <span className="transition">Projects</span>
                         <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
-                    </Link>
+                    </Link> */}
                     <Link href="/partnership" className="relative group">
                         <span className="transition">Pertnership</span>
                         <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-black transition-all duration-300 group-hover:w-full"></span>
@@ -50,8 +54,10 @@ const Navbar = () => {
 
                 <nav className="flex flex-col space-y-8 text-black text-xl font-bold text-center">
                     <Link href="/" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">HOME</Link>
+                    <Link href="/about" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">ABOUT US</Link>
                     <Link href="/solutions" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">SOLUTIONS</Link>
-                    <Link href="/projects" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">PROJECTS</Link>
+                    {/* <Link href="/projects" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">PROJECTS</Link> */}
+                    <Link href="/partnership" className="hover:text-gray-800 transition-all duration-300 transform hover:translate-x-1">PARTNERSHIP</Link>
                 </nav>
 
                 <div className="mt-10">

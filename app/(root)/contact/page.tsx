@@ -1,79 +1,90 @@
-import Footer from '@/app/components/Footer'
-import Navbar from '@/app/components/Navbar'
 import React from 'react'
-
+import Navbar from '@/app/components/Navbar'
+import Header from '@/app/components/Header'
+import Footer from '@/app/components/Footer'
+import { FaInstagram, FaFacebookF, FaWhatsapp } from 'react-icons/fa'
 
 const page = () => {
     return (
         <>
-            <div className="w-full px-3 pt-3 md:px-10 md:py-10">
-                <div className="rounded-3xl py-2 px-6 md:px-20 overflow-hidden border-2 border-gray-300 mb-5 md:mb-10">
-                    <Navbar/>
+            <Navbar />
+            <Header />
+            {/* Header Section */}
+            <div className='border-gray-300 py-24 px-5 md:px-24 bg-[#8e9c78]'>
+                <p className='font-bold text-white'>Contact</p>
+                <h1 className='my-12 text-5xl font-bold text-white'>Get in touch</h1>
+                <p className='text-white'>Area provides real insights, without the data overload.</p>
+            </div>
+
+            {/* Branches Section */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-5 md:px-24 py-16">
+                <div className="bg-white p-6 rounded-xl shadow-md border border-gray-300">
+                    <h2 className="text-2xl font-bold text-[#485c11] mb-2">Kannur Branch</h2>
+                    <p>1234 MG Road, Kannur, Kerala</p>
+                    <p className='py-2'>📞 +91 98765 43210</p>
+                    <p> ✉️ kannur@ecotonics.in</p>
                 </div>
-
-                <div className="border-2 border-gray-300 rounded-3xl p-5 mb-5 md:mb-10">
-                    <div className="grid grid-cols-1 md:grid-cols-2">
-                        
-                        {/* PAYYANNUR BRANCH */}
-                        <div className="mx-5 md:px-5 my-10 border-b lg:border-b-0 lg:border-r pb-15 lg:pb-0">
-                        <h3 className="font-extrabold text-xl md:text-2xl text-gray-800 mb-6">PAYYANNUR BRANCH</h3>
-                        <div className="text-lg md:text-xl text-gray-700 space-y-4">
-                            <p><strong>Address:</strong> XYZ Building, Main Road, Payyannur, Kerala - 670307</p>
-                            <p><strong>Phone:</strong> +91 98765 43210</p>
-                            <p><strong>Email:</strong> payyannur@yourcompany.com</p>
-                            <p><strong>Working Hours:</strong> Mon - Sat: 9:00 AM - 6:00 PM</p>
-                        </div>
-                        </div>
-
-                        {/* KOCHI BRANCH */}
-                        <div className="mx-5 md:px-5 my-10">
-                        <h3 className="font-extrabold text-xl md:text-2xl text-gray-800 mb-6">KOCHI BRANCH</h3>
-                        <div className="text-lg md:text-xl text-gray-700 space-y-4">
-                            <p><strong>Address:</strong> ABC Complex, MG Road, Kochi, Kerala - 682016</p>
-                            <p><strong>Phone:</strong> +91 91234 56789</p>
-                            <p><strong>Email:</strong> kochi@yourcompany.com</p>
-                            <p><strong>Working Hours:</strong> Mon - Sat: 9:00 AM - 6:00 PM</p>
-                        </div>
-                        </div>
-
-                    </div>
+                <div className="bg-white p-6 rounded-xl shadow-md border border-gray-300">
+                    <h2 className="text-2xl font-bold text-[#485c11] mb-2">Kochi Branch</h2>
+                    <p>5678 Marine Drive, Kochi, Kerala</p>
+                    <p className='py-2'>📞 +91 91234 56789</p>
+                    <p> ✉️ kochi@ecotonics.in</p>
                 </div>
-
-                <div className="border-2 border-gray-300 rounded-3xl p-5">
-                    <div className="px-5 py-10">
-                        <h3 className="font-extrabold text-xl md:text-2xl mb-10">CONTACT US</h3>
-
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center min-h-[400px]">
-                            {/* Contact Form */}
-                            <form className="space-y-6 h-full">
-                                <div>
-                                    <label className="block font-bold mb-2">Name</label>
-                                    <input type="text" placeholder="Your name" className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:ring-2 focus:ring-black transition"/>
-                                </div>
-
-                                <div>
-                                    <label className="block font-bold mb-2">Email</label>
-                                    <input type="email" placeholder="Your email" className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:ring-2 focus:ring-black transition"/>
-                                </div>
-
-                                <div>
-                                    <label className="block font-bold mb-2">Message</label>
-                                    <textarea placeholder="Your message" rows={5} className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:ring-2 focus:ring-black transition resize-none"></textarea>
-                                </div>
-
-                                <button type="submit" className="text-sm bg-black text-white font-bold px-6 py-3 rounded-2xl hover:bg-gray-900 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5">
-                                    SEND MESSAGE
-                                </button>
-                            </form>
-
-                            {/* Image */}
-                            <div className="hidden md:block h-full">
-                                <div className="w-full h-full rounded-3xl bg-[url('https://finovate.vamtam.com/wp-content/uploads/2025/02/GettyImages-2161896288.jpg')] bg-cover bg-center bg-no-repeat"></div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="bg-white p-6 rounded-xl shadow-md border border-gray-300">
+                    <h2 className="text-2xl font-bold text-[#485c11] mb-2">Calicut Branch</h2>
+                    <p>9101 SM Street, Calicut, Kerala</p>
+                    <p className='py-2'>📞 +91 99887 77665</p>
+                    <p>✉️ calicut@ecotonics.in</p>
                 </div>
             </div>
+
+            {/* Contact Form + Map */}
+            <div className="grid grid-cols-1 md:grid-cols-2 px-5 md:px-24 gap-12 pb-24">
+                {/* Form */}
+                <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-300">
+                    <h2 className="text-3xl font-bold text-[#485c11] mb-6">Send us a Message</h2>
+                    <form className="space-y-4">
+                        <input
+                            type="text"
+                            placeholder="Your Name"
+                            className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#8e9c78]"
+                        />
+                        <input
+                            type="email"
+                            placeholder="Your Email"
+                            className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#8e9c78]"
+                        />
+                        <input
+                            type="text"
+                            placeholder="Subject"
+                            className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#8e9c78]"
+                        />
+                        <textarea
+                            placeholder="Your Message"
+                            className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#8e9c78]"
+                        ></textarea>
+                        <button
+                            type="submit"
+                            className="bg-[#8e9c78] text-white font-semibold py-3 px-6 rounded-lg hover:bg-[#76885e] transition"
+                        >
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                {/* Map */}
+                <div className="rounded-xl overflow-hidden shadow-lg border border-gray-300">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.193298124875!2d75.36661107516055!3d12.10696038812443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba43d38b676b021%3A0x6f60d117bc8d6d!2sKannur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1710093050474!5m2!1sen!2sin"
+                        width="100%"
+                        height="100%"
+                        className="w-full h-[500px] border-0"
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+
             <Footer />
         </>
     )

@@ -1,64 +1,40 @@
 import Footer from '@/app/components/Footer'
 import Navbar from '@/app/components/Navbar'
+import Contact from '@/app/components/Contact'
+import Header from '@/app/components/Header'
 import React from 'react'
 
 
 const page = () => {
     return (
         <>
-            <div className="w-full px-3 pt-3 md:px-10 md:pt-10">
-                <div className="rounded-3xl py-2 px-6 md:px-20 overflow-hidden border-2 border-gray-300 mb-5 md:mb-10">
-                    <Navbar/>
+            <Navbar />
+            <Header />
+            <div className='border-gray-300 py-24 px-5 md:px-24 bg-[#8e9c78]'>
+                <p className='font-bold text-white'>About Us</p>
+                <h1 className='my-12 text-5xl font-bold text-white'>Projects We Accoplished</h1>
+                <p className='text-white'>Area provides real insights, without the data overload.</p>
+            </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 py-24 px-5 md:mx-24 gap-15 border-b-1 border-gray-300'>
+                <div className='w-full h-full rounded-3xl'>
+                    <img src="images/banner.avif" alt="" className='rounded-3xl' />
                 </div>
-
-                <div className="border-2 border-gray-300 rounded-3xl p-5 mb-5 md:mb-10">
-                    <div className="px-5 py-10">
-                        {/* About Us Content */}
-                        <h3 className="font-extrabold text-xl md:text-2xl">ABOUT US</h3>
-
-                        <p className="text-lg md:text-xl mt-10">
-                            As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
-                            future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
-                            proactive maintenance, and expert consultation tailored to your unique needs. 
-                            By partnering with us, you unlock a new level of convenience, efficiency, 
-                            and control bringing the luxury of smart living and intelligent operations to your fingertips, 
-                            all through reliable and cost-effective automation systems
-                        </p>
-                    </div>
-                </div>
-
-                <div className="border-2 border-gray-300 rounded-3xl p-5 mb-5 md:mb-10">
-                    <div className='grid grid-cols-1 md:grid-cols-2'>
-                        <div className="mx-5 md:pr-10 my-10 lg:border-r">
-                            {/* About Us Content */}
-                            <h3 className="font-extrabold text-xl md:text-2xl">OUR VISION</h3>
-
-                            <p className="text-lg md:text-xl mt-10">
-                                As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
-                                future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
-                                proactive maintenance, and expert consultation tailored to your unique needs. 
-                                By partnering with us, you unlock a new level of convenience, efficiency, 
-                                and control bringing the luxury of smart living and intelligent operations to your fingertips, 
-                                all through reliable and cost-effective automation systems
-                            </p>
-                        </div>
-
-                        <div className="mx-5 md:pl-10 my-10">
-                            {/* About Us Content */}
-                            <h3 className="font-extrabold text-xl md:text-2xl">OUR MISSION</h3>
-
-                            <p className="text-lg md:text-xl mt-10">
-                                As a leading provider of automation solutions, we cater to both industrial and domestic clients with innovative,
-                                future-ready technologies. Our comprehensive range of services includes end-to-end project implementation, 
-                                proactive maintenance, and expert consultation tailored to your unique needs. 
-                                By partnering with us, you unlock a new level of convenience, efficiency, 
-                                and control bringing the luxury of smart living and intelligent operations to your fingertips, 
-                                all through reliable and cost-effective automation systems
-                            </p>
-                        </div>
-                    </div>
+                <div className='my-auto'>
+                    <h1 className='text-[#485c11] font-bold text-5xl'>What is ecotonics</h1>
+                    <p className='mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsum nam veritatis? Nostrum illo id asperiores ea consectetur soluta eaque, neque inventore iste amet harum voluptates odio ipsam possimus? Similique totam deserunt excepturi mollitia qui. Minima placeat corporis vero quasi dicta, ullam, distinctio eveniet tempora illo sit vel architecto reprehenderit voluptate commodi consectetur fugit ducimus est nesciunt deserunt possimus ipsum molestiae et quisquam in! Officiis, ab excepturi? Temporibus, magni atque at odit totam voluptates maxime tempore amet similique nostrum. Ducimus quos quibusdam quo illo fugit, unde hic,</p>
                 </div>
             </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 pt-24 px-5 md:mx-24 gap-15'>
+                <div className='border-r-1 border-gray-300 pr-10'>
+                    <h1 className='text-[#485c11] font-bold text-5xl'>Mission</h1>
+                    <p className='mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat provident debitis laborum error perferendis praesentium incidunt! Tempora alias, laudantium debitis, modi nemo nam inventore dolorem sint suscipit vitae omnis accusantium repellat ipsa, quod corporis voluptates deserunt exercitationem illum! Nostrum, ipsa cum! Odit, suscipit maxime sapiente minus harum obcaecati nihil, sunt assumenda optio cumque consequuntur quaerat!</p>
+                </div>
+                <div className='pl-10'>
+                    <h1 className='text-[#485c11] font-bold text-5xl'>Vision</h1>
+                    <p className='mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat provident debitis laborum error perferendis praesentium incidunt! Tempora alias, laudantium debitis, modi nemo nam inventore dolorem sint suscipit vitae omnis accusantium repellat ipsa, quod corporis voluptates deserunt exercitationem illum! Nostrum, ipsa cum! Odit, suscipit maxime sapiente minus harum obcaecati nihil, sunt assumenda optio cumque consequuntur quaerat!</p>
+                </div>
+            </div>
+            <Contact />
             <Footer />
         </>
     )
