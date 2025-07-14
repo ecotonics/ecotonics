@@ -25,8 +25,8 @@ const page = () => {
                 <h1 className='text-4xl font-bold'>Partner with Us & Earn</h1>
                 <p className='mt-8'>Ecotonics Referral Program: Turn Your Network into Rewards!
                     Welcome to the Ecotonics Referral Program, our exciting new initiative designed to reward you for simply connecting us with potential new clients.
-                    This program is for anyone with a strong network and a desire to earn cash or fantastic rewards. Whether you're a freelancer, contractor, designer, electrician, real estate agent, or just someone with great connections, this program turns your contacts into cash or gifts! 
-                    The program is straightforward: refer a new client to us who engages with our services, and you'll receive a commission in cash or your choice of exciting gifts. It's a win-win: your contacts get access to our high-quality services, and you get rewarded for making the connection.
+                    This program is for anyone with a strong network and a desire to earn cash or fantastic rewards. Whether you&apos;re a freelancer, contractor, designer, electrician, real estate agent, or just someone with great connections, this program turns your contacts into cash or gifts! 
+                    The program is straightforward: refer a new client to us who engages with our services, and you&apos;ll receive a commission in cash or your choice of exciting gifts. It&apos;s a win-win: your contacts get access to our high-quality services, and you get rewarded for making the connection.
                     Ready to turn your network into tangible rewards? Join the Ecotonics Referral Program today and start earning!
                 </p>
             </div>

@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '@/app/components/Navbar'
 import Header from '@/app/components/Header'
 import Footer from '@/app/components/Footer'
-import { FaInstagram, FaFacebookF, FaWhatsapp } from 'react-icons/fa'
 
 const page = () => {
     return (
