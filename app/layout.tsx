@@ -1,29 +1,38 @@
 import type { Metadata } from "next";
-import {Playfair_Display} from "next/font/google";
+import { Ubuntu, Playwrite_AR } from "next/font/google";
 import "./globals.css";
 
-const playfairDisplay = Playfair_Display({
-  variable: "--font-playfair-display",
+// Ubuntu font
+const ubuntu = Ubuntu({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+  variable: "--font-ubuntu",
+});
+
+// Playwrite font
+const playwrite = Playwrite_AR({
+  // subsets: ["latin"],
+  weight: ["100", "200", "300", "400"],
+  variable: "--font-playwrite",
 });
 
 export const metadata: Metadata = {
-  title: "Ecotonics",
+  title: "ecotonics",
   description: "Ecotonic Automation Solutions",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="/images/logo.png" />
       </head>
       <body
-        className={`${playfairDisplay.variable} antialiased`}
+        className={`${ubuntu.className} ${playwrite.variable} antialiased`}
       >
         {children}
       </body>

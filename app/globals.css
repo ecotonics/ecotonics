@@ -1,42 +1,49 @@
 @import "tailwindcss";
 
 :root {
-  /* --background: #ededed; */
-  --background: #ffffff;
-  --foreground: #0a0a0a;
+    --background: #ededed;
+    /* --background: #e6e6e6; */
+    --foreground: #0a0a0a;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-playfair: var(--font-playfair-display);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-playfair);
+    background: var(--background);
+    color: var(--foreground);
 }
 
 .scrollbar-hide::-webkit-scrollbar {
-  display: none;
+    display: none;
+}
+
+.text-primary {
+    color: #284b63;
+}
+
+.text-secondary {
+    color: #353535;
+}
+
+.bg-primary {
+    background-color: #284b63;
+}
+
+.bg-secondary {
+    background-color: #353535;
 }
 
 .scrollbar-hide {
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 /* Optional: block vertical scroll */
 .no-vertical-scroll {
-  overflow-y: hidden;
+    overflow-y: hidden;
 }

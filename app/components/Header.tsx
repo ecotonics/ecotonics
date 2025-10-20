@@ -1,18 +1,15 @@
-import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
     return (
-        <div className="w-full hidden lg:flex items-center justify-between p-5 px-48">
-            <Link href="/">
-                <p className="text-2xl font-bold">Ecotonics</p>
-            </Link>
-            <Link href="/contact">
-                <button className="px-5 py-2 bg-[#485c11] text-white rounded-3xl">
-                    <p className='text-sm font-bold'>Contact us</p>
-                </button>
-            </Link>
-        </div>
+        <>
+            <div className=''>
+                <div className='header p-6 lg:py-6 lg:px-10 flex justify-between items-center'>
+                    <h1 className='font-bold text-2xl md:text-2xl lg:text-4xl text-secondary'>ecotonics</h1>
+                    <button className='text-white bg-primary rounded-full px-6 py-2'>Connect.</button>
+                </div>
+            </div>
+        </>
     )
 }
 
