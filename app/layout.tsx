@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Ubuntu, Playwrite_AR } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header";
+
 
 // Ubuntu font
 const ubuntu = Ubuntu({
@@ -31,9 +33,8 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/images/logo.png" />
       </head>
-      <body
-        className={`${ubuntu.className} ${playwrite.variable} antialiased`}
-      >
+      <body className={`${ubuntu.className} ${playwrite.variable} antialiased`}>
+        <Header/>
         {children}
       </body>
     </html>
