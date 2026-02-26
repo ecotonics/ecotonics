@@ -110,7 +110,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Stats Bar */}
-      <section className="py-12 bg-primary">
+      {/* <section className="py-12 bg-primary">
         <div className="w-full max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {whyUs.map(({ value, label }) => (
@@ -121,7 +121,7 @@ export default function ServicesPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Services List */}
       <section className="py-24 bg-background">

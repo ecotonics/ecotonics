@@ -11,7 +11,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Visit Us',
-    detail: <>123 Innovation Drive, Suite 500<br />San Francisco, CA 94102</>,
+    detail: <>Kochi, Kannur, Payyannur, Calicut</>
   },
   {
     icon: Phone,
