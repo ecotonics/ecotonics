@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(0, 0%, 100%);
+  --color-foreground: hsl(220, 25%, 15%);
+  --color-card: hsl(220, 20%, 97%);
+  --color-card-foreground: hsl(220, 25%, 15%);
+  --color-popover: hsl(0, 0%, 100%);
+  --color-popover-foreground: hsl(220, 25%, 15%);
+  --color-primary: hsl(220, 70%, 35%);
+  --color-primary-foreground: hsl(0, 0%, 100%);
+  --color-secondary: hsl(220, 15%, 94%);
+  --color-secondary-foreground: hsl(220, 25%, 25%);
+  --color-muted: hsl(220, 15%, 96%);
+  --color-muted-foreground: hsl(220, 10%, 45%);
+  --color-accent: hsl(200, 80%, 45%);
+  --color-accent-foreground: hsl(0, 0%, 100%);
+  --color-destructive: hsl(0, 84%, 60%);
+  --color-destructive-foreground: hsl(0, 0%, 100%);
+  --color-border: hsl(220, 15%, 90%);
+  --color-input: hsl(220, 15%, 90%);
+  --color-ring: hsl(220, 70%, 35%);
+
+  --color-navy-deep: hsl(220, 40%, 20%);
+  --color-navy-rich: hsl(220, 35%, 30%);
+  --color-blue-electric: hsl(220, 70%, 35%);
+  --color-blue-glow: hsl(200, 80%, 45%);
+  --color-gold-champagne: hsl(38, 70%, 50%);
+  --color-gold-soft: hsl(38, 60%, 60%);
+
+  --color-sidebar: hsl(0, 0%, 100%);
+  --color-sidebar-foreground: hsl(220, 25%, 15%);
+  --color-sidebar-primary: hsl(220, 70%, 35%);
+  --color-sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --color-sidebar-accent: hsl(220, 15%, 94%);
+  --color-sidebar-accent-foreground: hsl(220, 25%, 25%);
+  --color-sidebar-border: hsl(220, 15%, 90%);
+  --color-sidebar-ring: hsl(220, 70%, 35%);
+
+  --radius: 0.75rem;
+  --radius-sm: calc(0.75rem - 4px);
+  --radius-md: calc(0.75rem - 2px);
+  --radius-lg: 0.75rem;
+  --radius-xl: calc(0.75rem + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sora), sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-space-grotesk), sans-serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card border border-border rounded-2xl shadow-sm;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+  .hover-lift {
+    @apply transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+  }
+  .animate-fade-up {
+    animation: fade-up 0.8s ease-out forwards;
+  }
+  .animate-fade-in {
+    animation: fade-in 1s ease-out forwards;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  @keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
